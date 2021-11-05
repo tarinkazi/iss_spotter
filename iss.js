@@ -14,7 +14,7 @@ const fetchMyIP = function(callback) {
 };
 
 const fetchCoordsByIP = function(ip, callback) {
-  request("https://freegeoip.app/json/142.122.117.6145", (error, response, body) => {
+  request("https://freegeoip.app/json/142.122.117.6", (error, response, body) => {
     if (error) {
       return callback(`${error}, data ${body}`,null);
 
